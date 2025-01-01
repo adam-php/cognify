@@ -19,6 +19,17 @@ export default {
       toolbar: {
         background: "bg-gray-100",
       },
+      button: {
+        primary: "bg-blue-500 text-white hover:bg-blue-600",
+        secondary: "bg-gray-500 text-white hover:bg-gray-600",
+      },
+      toolbar: {
+        background: "bg-gray-100",
+      },
+      whiteboard: {
+        canvas: "border border-gray-300",
+        toolButton: "bg-white text-black hover:bg-gray-200",
+      },
     },
   },
   plugins: [],

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Whiteboard from "../components/Whiteboard";
+import Whiteboard from "../components/Whiteboard";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
           height={38}
           priority
         />
+        <Whiteboard />
         <Whiteboard />
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2">
