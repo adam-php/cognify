@@ -7,6 +7,13 @@
   --foreground: #171717;
 }
 
+.whiteboard-container {
+  width: 100%;
+  height: 100vh;
+  border: 1px solid var(--foreground);
+  background-color: var(--background);
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;

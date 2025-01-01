@@ -12,6 +12,13 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      button: {
+        primary: "bg-blue-500 text-white hover:bg-blue-600",
+        secondary: "bg-gray-500 text-white hover:bg-gray-600",
+      },
+      toolbar: {
+        background: "bg-gray-100",
+      },
     },
   },
   plugins: [],
