@@ -16,6 +16,9 @@ export default {
       chatBackground: "#e0e0e0",
       chatText: "#333333",
     },
+    whiteboardBackground: "#f0f0f0",
+    chatBackground: "#e0e0e0",
+    chatText: "#333333",
   },
   plugins: [],
 } satisfies Config;
